@@ -31,7 +31,7 @@ Welcome to **ChatHive**, a real-time chat application backend designed to handle
 
 ## Demo
 
-You can try out ChatHive live [here](https://chathive.netlify.app/).
+You can try out ChatHive live [here](https://chat-hivee.netlify.app/).
 
 ## Tech Stack
 
@@ -43,6 +43,9 @@ You can try out ChatHive live [here](https://chathive.netlify.app/).
 - MongoDB
 - Docker
 - Maven
+- React.js
+- Vite.js
+- Tailwind Css
 
 ## Installation
 
