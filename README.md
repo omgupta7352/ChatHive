@@ -49,7 +49,7 @@ You can try out ChatHive live [here](https://chat-hivee.netlify.app/).
 
 ## Installation
 
-Follow these steps to set up **ChatHive** locally:
+Follow these steps to set up **EchoMind** locally:
 
 1. Clone the repository:
     ```bash
@@ -60,17 +60,28 @@ Follow these steps to set up **ChatHive** locally:
 2. Set up the backend:
     - Install required dependencies:
         ```bash
+        cd /ChatHive
         mvn install
         ```
-    - Configure MongoDB in `application.properties`:
-        ```properties
-        spring.data.mongodb.uri=mongodb://localhost:27017/chathive
-        ```
+    - Configure your AI API in `application.properties`.
 
     - Run the backend server:
         ```bash
         mvn spring-boot:run
         ```
+
+3. Set up the frontend:
+    - Navigate to the frontend directory:
+        ```bash
+        cd chathive-frontend
+        npm install
+        ```
+    - Run the React development server:
+        ```bash
+        npm run dev
+        ```
+
+4. The app will be available at `http://localhost:5173`.
 
 ## Usage
 
