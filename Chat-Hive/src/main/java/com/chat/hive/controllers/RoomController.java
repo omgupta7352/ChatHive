@@ -25,7 +25,7 @@ public class RoomController {
     @PostMapping
     public ResponseEntity<?> createRoom(@RequestBody String roomId) {
 
-        System.out.println("create room");
+      //  System.out.println("create room");
 
         if (roomRepository.findByRoomId(roomId) != null) {
             //room is already there
@@ -50,7 +50,7 @@ public class RoomController {
             @PathVariable String roomId
     ) {
 
-        System.out.println("join room");
+      //  System.out.println("join room");
 
         Room room = roomRepository.findByRoomId(roomId);
         if (room == null) {
