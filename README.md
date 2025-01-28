@@ -3,7 +3,7 @@
 ![CHATHIVE](chathive1.png)
 ![](chathive2.png)
 
-Welcome to **ChatHive**, a real-time chat application backend designed to handle multiple users and chat rooms efficiently. ChatHive provides the core infrastructure for real-time communication with secure user management, message persistence, and scalable architecture.
+Welcome to **ChatHive**, a real-time chat application backend designed to handle multiple users and chat rooms efficiently an frontend designed for bettter user interactions. ChatHive provides the core infrastructure for real-time communication with secure user management, message persistence, and scalable architecture.
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ Welcome to **ChatHive**, a real-time chat application backend designed to handle
 
 ## Overview
 
-**ChatHive** is a scalable and real-time chat application backend built with Spring Boot and MongoDB. It offers WebSocket-based communication for real-time message delivery and supports secure user authentication and message persistence. Whether you're building a social platform, a chat app, or integrating live messaging into your service, ChatHive provides all the essentials to get you started.
+**ChatHive** is a scalable and real-time chat application backend built with Spring Boot and MongoDB and Frontend built with ReactJs, ViteJs and Tailwind CSS. It offers WebSocket-based communication for real-time message delivery and supports secure user authentication and message persistence. Whether you're building a social platform, a chat app, or integrating live messaging into your service, ChatHive provides all the essentials to get you started.
 
 ## Features
 
